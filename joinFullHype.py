@@ -8,7 +8,7 @@ import math
 All HypE-related code is adapted or taken from:
 https://github.com/ElementAI/HypE
 TransE scoring adapted from:
-https://github.com/siwer/OpenKE/blob/OpenKE-PyTorch/openke/module/model/TransE.py
+https://github.com/thunlp/OpenKE/blob/OpenKE-PyTorch/openke/module/model/TransE.py
 '''
 class JointLearner(nn.Module):
     def __init__(self,gpuNr,nrLocations,nrEntities,nrOntology,nrRelations,embeddingDimension,ontologyDimension):
